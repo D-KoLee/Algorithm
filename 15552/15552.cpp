@@ -16,7 +16,7 @@ int main()
         for(int i = 0; i < T; ++i)
         {
             cin >> A >> B;
-            if(0<= A && A>= 1000 && 0 <= B&&B >= 1000) { cout << A+B << "\n";}
+            cout << A+B << "\n";
         }
     }
 }
