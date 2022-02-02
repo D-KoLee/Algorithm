@@ -5,12 +5,13 @@ using namespace std;
 int main()
 {
     int N, X;
-    cin >> N;
-    cin >> X;
+    cin >> N >> X;
     const int Size = N;
 
     char arr[Size];
-    cin.getline(arr, Size);
 
-    cout << arr[3];
+    for(int i = 0; i <= Size; i++) cin >> arr[i];
+    
+    for(int i = 0; i <= Size; i++) cout << arr[i] << "\n";
+
 }
