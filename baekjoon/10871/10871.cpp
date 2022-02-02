@@ -8,10 +8,13 @@ int main()
     cin >> N >> X;
     const int Size = N;
 
-    char arr[Size];
+    int arr[Size];
 
-    for(int i = 0; i <= Size; i++) cin >> arr[i];
+    for(int i = 0; i < Size; i++) cin >> arr[i];
     
-    for(int i = 0; i <= Size; i++) cout << arr[i] << "\n";
-
+    for(int i = 0; i < Size; i++)
+    {
+        if(arr[i] < X)
+            cout << arr[i] << " ";
+    }
 }
